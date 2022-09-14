@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- html internal styling -->
+    <!-- <style>
+      h3 {
+        color: blueviolet;
+      }
+      #header-1 {
+        background-color: aqua;
+      }
+      .header-2 {
+        color: darkgoldenrod;
+      }
+    </style> -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h3>Belajar HTML</h3>
+        <ul class="navigation">
+          <li><a href="#main">Home</a></li>
+          <li><a href="#content">Artikel</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <div id="content">
+        <header>
+          <!-- html inline styling -->
+          <!-- <h2 style="color: cornflowerblue; background-color: brown">Artikel</h2> -->
+          <h2>Artikel</h2>
+        </header>
+        <article>
+          <div>
+            <h4 id="header-1">Pengertian HTML</h4>
+            <p>
+              HTML adalah bahasa standar pemrogaman yang digunakan untuk membuat halaman website, yang diakses melalui internet. Singkatan dari "Hypertext Markup Language" atau "bahasa markup". <br /><br />
+              Dilansir Techterms, "Hypertext" mengacu pada hyperlink yang mungkin terdapat dalam halaman HTML. Bahasa markup ini mengacu pada cara tag yang digunakan, untuk menentukan tata letak halaman dan elemen di dalam halaman.<br /><br />
+              Melansir dari Nesabamedia, 'language' berarti bahasa pemrograman atau script. Disusun dari tag-tag tertentu yang akan diterjemahkan dalam teks atau visual yang bisa dilihat di website.
+            </p>
+          </div>
+        </article>
+        <article>
+          <div>
+            <h4 class="header-2">Fungsi HTML</h4>
+            <p>
+              Dikutip dari Computerhope, HTML digunakan untuk membuat dokumen elektronik (disebut halaman) yang ditampilkan di World Wide Web (www). Setiap halaman berisi serangkaian koneksi ke halaman lain yang disebut hyperlink. Setiap
+              halaman web yang Anda lihat di Internet ditulis menggunakan satu versi kode HTML atau yang lain.
+            </p>
+            <ul>
+              <li>Fungsi utama HTML, untuk membuat suatu halaman website yang bisa dibaca dan dipahami dengan lebih mudah.</li>
+              <li>Menandai teks pada suatu laman. HTML ditulis pada suatu halaman dokumen dengan tag atau simbol tertentu.</li>
+              <li>Sebagai dasar website. Website yang dibuat tentu memiliki beberapa fitur. Dibuat menggunakan java script untuk mengatur perilaku web, implemetasi bahasa pemrograman server PHP, dan mendesain web menggunakan CSS.</li>
+              <li>Menampilkan tabel, gambar, video dan lainnya. Umumnya di halaman website atau blog kita tidak bisa langsung meletakkan tabel, gambar maupun video.</li>
+              <li>Menandai elemen dan membuat online form. HTML berfungsi menandai bagian-bagian dalam website di antaranya header, footer, main, navigation dan sebagainya.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+      <aside>
+        <div>
+          <div>
+            <img src="./assest/profile.jpeg" alt="profile_picture" onclick="hideProfile()" />
+          </div>
+          <ul id="profile">
+            <li><h4>Nama:</h4></li>
+            <li><p>Hanna Fara Amelia</p></li>
+            <li><h4>Tempat & Tanggal lahir:</h4></li>
+            <li><p>Medan, 14 Agustus 2004</p></li>
+            <li><h4>Alamat:</h4></li>
+            <li><p>Jl. Karya Persatuan No. 3D</p></li>
+            <li><h4>No. Telp:</h4></li>
+            <li><p>087744682447</p></li>
+            <li><h4>Email:</h4></li>
+            <li><p>hfaraamelia@gmail.com</p></li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+    <footer>
+      <p>Copyright @ 2022, Hanna Fara Amelia</p>
+    </footer>
+  </body>
+</html>
